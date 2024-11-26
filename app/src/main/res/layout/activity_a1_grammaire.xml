@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- قاعدة 1 -->
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="1. أدوات التعريف (Der, Die, Das)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="كل اسم في اللغة الألمانية له أداة تعريف: der (مذكر)، die (مؤنث)، das (محايد)."
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:id="@+id/examples1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="أمثلة:\n1. Der Apfel ist rot. (التفاحة حمراء.)\n2. Die Lampe ist neu. (المصباح جديد.)\n3. Das Haus ist groß. (البيت كبير.)"
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <!-- قاعدة 2 -->
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="2. تصريف الأفعال الأساسية (Verbkonjugation)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="الأفعال في اللغة الألمانية تتغير نهايتها حسب الفاعل. مثال: 'machen' (يفعل)."
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:id="@+id/examples2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="أمثلة:\n1. Ich mache meine Hausaufgaben. (أنا أقوم بواجباتي.)\n2. Du machst Frühstück. (أنت تعد الفطور.)\n3. Er macht Sport. (هو يمارس الرياضة.)"
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <!-- قاعدة 3 -->
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="3. الفعل 'sein' (يكون)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/content3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="يُستخدم 'sein' للتعبير عن الحالة أو التعريف."
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:id="@+id/examples3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="أمثلة:\n1. Ich bin glücklich. (أنا سعيد.)\n2. Du bist müde. (أنت متعب.)\n3. Er ist ein Lehrer. (هو معلم.)"
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <!-- قاعدة 4 -->
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="4. ترتيب الجملة في اللغة الألمانية"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/content4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="في الجمل الألمانية، غالبًا ما يتبع الفعل ترتيبًا معينًا مثل: الفعل يأتي في المركز الثاني."
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:id="@+id/examples4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="أمثلة:\n1. Ich gehe ins Kino. (أنا ذاهب إلى السينما.)\n2. Du spielst Fußball. (أنت تلعب كرة القدم.)\n3. Er arbeitet im Büro. (هو يعمل في المكتب.)"
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <!-- قاعدة 5 -->
+        <TextView
+            android:id="@+id/title5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="5. الضمائر الشخصية (Personalpronomen)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/content5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="الضمائر الشخصية هي كلمات تُستخدم للإشارة إلى الأشخاص أو الأشياء."
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:id="@+id/examples5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="أمثلة:\n1. Ich (أنا)\n2. Du (أنت)\n3. Er/Sie (هو/هي)"
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <!-- قاعدة 6 -->
+        <TextView
+            android:id="@+id/title6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="6. الأفعال الانعكاسية (Reflexive Verbs)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/content6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="الأفعال الانعكاسية هي الأفعال التي يحدث فيها الفعل على الفاعل نفسه. تُستخدم مع الضمير 'sich'."
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <TextView
+            android:id="@+id/examples6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="أمثلة:\n1. Ich dusche mich. (أنا استحم.)\n2. Du erinnerst dich. (أنت تتذكر.)\n3. Sie freut sich. (هي سعيدة.)"
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+        <!-- قاعدة 7 -->
+        <TextView
+            android:id="@+id/title7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="7. الأفعال العادية (Regelmäßige Verben)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/content7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="الأفعال العادية هي الأفعال التي يتم تصريفها باتباع نفس النمط."
+            android:textSize="16sp"
+            android:textColor="#333"/>
+
+    </LinearLayout>
+</ScrollView>
+

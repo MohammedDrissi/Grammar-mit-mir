@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/aldrich</item>
+        <item>@font/almarai_bold</item>
+        <item>@font/almendra</item>
+        <item>@font/almendra_sc</item>
+        <item>@font/barriecito</item>
+        <item>@font/bruno_ace</item>
+    </array>
+</resources>

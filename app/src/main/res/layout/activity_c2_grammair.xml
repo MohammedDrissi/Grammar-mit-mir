@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6FBC76"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- قاعدة 1: Doppelkonjunktionen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Doppelkonjunktionen (ازدواج حروف العطف)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم هذه القاعدة للربط بين جملتين باستخدام تركيبات مزدوجة مثل 'sowohl ... als auch' أو 'weder ... noch'." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Sowohl Peter als auch Maria kommen zur Party. (بيتر وماريا سيحضران الحفلة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Weder er noch sie hat die Wahrheit gesagt. (لا هو ولا هي قالا الحقيقة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Entweder du gehst ins Kino oder du bleibst zu Hause. (إما أن تذهب إلى السينما أو تبقى في المنزل)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Nicht nur die Kinder, sondern auch die Eltern waren begeistert. (ليس فقط الأطفال، بل الآباء أيضًا كانوا متحمسين)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Sowohl der Lehrer als auch die Schüler waren zufrieden. (كان كل من المعلم والطلاب راضين)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Weder hat er angerufen, noch hat er eine Nachricht geschrieben. (لا اتصل ولا كتب رسالة)." />
+
+        <!-- قاعدة 2: Nominalstil in der Wissenschaftssprache -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Nominalstil in der Wissenschaftssprache (الأسماء في اللغة العلمية)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم الأسماء بكثافة في النصوص العلمية لزيادة الدقة والرسمية." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Die Analyse der Daten ist entscheidend. (تحليل البيانات أمر حاسم)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Die Durchführung der Experimente dauert lange. (تنفيذ التجارب يستغرق وقتًا طويلاً)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Die Entdeckung neuer Moleküle war ein großer Erfolg. (اكتشاف الجزيئات الجديدة كان نجاحًا كبيرًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Die Überprüfung der Ergebnisse ist notwendig. (التحقق من النتائج ضروري)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Die Interpretation der Daten erfordert Erfahrung. (تفسير البيانات يتطلب خبرة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Die Entwicklung neuer Methoden wird diskutiert. (يتم مناقشة تطوير طرق جديدة)." />
+
+        <!-- قاعدة 3: Komplexe Nebensätze -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Komplexe Nebensätze (الجمل الفرعية المعقدة)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تتضمن الجمل الفرعية المعقدة تعبيرات تحتوي على تفاصيل متشابكة باستخدام أدوات ربط متقدمة." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Obwohl er müde war, blieb er bis spät wach, um die Arbeit zu beenden. (على الرغم من أنه كان متعبًا، بقي مستيقظًا حتى وقت متأخر لإنهاء العمل)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Weil das Wetter schlecht war, wurde das Spiel abgesagt, was viele enttäuschte. (بسبب سوء الأحوال الجوية، تم إلغاء المباراة، مما أحبط الكثيرين)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Während er arbeitet, hört er Musik, um sich zu konzentrieren. (أثناء عمله، يستمع إلى الموسيقى لتركيز نفسه)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Falls du Hilfe brauchst, kannst du mich anrufen, auch wenn es spät ist. (إذا احتجت إلى مساعدة، يمكنك الاتصال بي حتى لو كان الوقت متأخرًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Sobald wir die Ergebnisse haben, informieren wir Sie, damit Sie planen können. (بمجرد أن نحصل على النتائج، سنخبرك لكي تتمكن من التخطيط)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Bevor er geht, will er sicherstellen, dass alles in Ordnung ist. (قبل أن يغادر، يريد التأكد من أن كل شيء على ما يرام)." />
+        <!-- قاعدة 4: Indirekte Rede mit Konjunktiv II -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Indirekte Rede mit Konjunktiv II (الكلام غير المباشر باستخدام Konjunktiv II)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم هذه القاعدة لنقل الكلام بشكل غير مباشر مع إظهار الشك أو عدم التأكد." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Er sagte, er würde morgen kommen. (قال إنه سيأتي غدًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie meinte, sie hätte das Buch gelesen. (قالت إنها قرأت الكتاب)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Er behauptete, er könne das Problem lösen. (ادعى أنه يستطيع حل المشكلة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Sie sagte, sie wolle ins Kino gehen. (قالت إنها تريد الذهاب إلى السينما)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Der Lehrer erklärte, die Prüfung sei sehr schwierig gewesen. (شرح المعلم أن الامتحان كان صعبًا جدًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Er meinte, er habe gestern keine Zeit gehabt. (قال إنه لم يكن لديه وقت بالأمس)." />
+
+        <!-- قاعدة 5: Konzessive Satzverbindungen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Konzessive Satzverbindungen (الجمل التنازلية)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم الجمل التنازلية للإشارة إلى تعارض بين الجملتين باستخدام كلمات مثل 'obwohl'، 'trotzdem'." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Obwohl es regnet, gehen wir spazieren. (على الرغم من أن الجو ممطر، نذهب للتنزه)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Er kam pünktlich, obwohl er den Bus verpasst hatte. (وصل في الوقت المحدد على الرغم من أنه فاته الحافلة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Trotz des schlechten Wetters sind wir schwimmen gegangen. (على الرغم من سوء الأحوال الجوية ذهبنا للسباحة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Sie arbeitet weiter, obwohl sie krank ist. (تستمر في العمل على الرغم من أنها مريضة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Er hat bestanden, obwohl er kaum gelernt hat. (اجتاز الامتحان على الرغم من أنه بالكاد درس)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Sie kam, trotzdem sie eingeladen war. (جاءت، رغم أنها لم تكن مدعوة)." />
+
+        <!-- قاعدة 6: Partizipialkonstruktionen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Partizipialkonstruktionen (التراكيب باستخدام أشكال التصريف)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم هذه القاعدة لتبسيط الجمل المعقدة من خلال استخدام صيغة التصريف (Partizip I وPartizip II)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Das Kind, spielend im Garten, lachte laut. (الطفل الذي يلعب في الحديقة، يضحك بصوت عالٍ)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Die Aufgabe, gestern erledigt, war schwierig. (المهمة التي تم إنجازها بالأمس كانت صعبة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Die Gäste, gekommen aus aller Welt, genossen die Feier. (الضيوف، القادمين من جميع أنحاء العالم، استمتعوا بالحفل)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Die Frau, wartend an der Haltestelle, las ein Buch. (السيدة التي تنتظر في محطة الحافلات، تقرأ كتابًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Der Mann, verletzt am Bein, konnte kaum laufen. (الرجل المصاب في ساقه بالكاد يستطيع المشي)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Die Kinder, schreiend vor Freude, spielten im Park. (الأطفال، يصرخون فرحًا، يلعبون في الحديقة)." />
+        <!-- قاعدة 7: Nominalisierung von Verben und Adjektiven -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Nominalisierung von Verben und Adjektiven (تحويل الأفعال والصفات إلى أسماء)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم هذه القاعدة لتحويل الأفعال أو الصفات إلى أسماء باستخدام الحروف الكبيرة والقيام بأدوار نحوية مختلفة." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Lesen macht Spaß. (القراءة ممتعة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Das Lernen einer neuen Sprache ist nützlich. (تعلم لغة جديدة مفيد)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Das Schöne an der Natur ist ihre Ruhe. (الجميل في الطبيعة هو هدوؤها)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Die Entscheidung fiel schwer. (كان اتخاذ القرار صعبًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Sein Schreiben war immer klar. (كانت كتابته دائمًا واضحة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Das Laufen im Park ist erholsam. (الجري في الحديقة مريح)." />
+
+        <!-- قاعدة 8: Erweiterte Infinitivkonstruktionen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Erweiterte Infinitivkonstruktionen (بناء الجمل باستخدام صيغة المصدر)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم صيغة المصدر مع 'zu' لتبسيط الجمل المعقدة أو توضيح الهدف." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich habe vor, morgen zu reisen. (أنوي السفر غدًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Es ist wichtig, regelmäßig Sport zu treiben. (من المهم ممارسة الرياضة بانتظام)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Sie versuchte, die Aufgabe zu lösen. (حاولت حل المهمة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Er hat beschlossen, das Projekt zu beenden. (قرر إنهاء المشروع)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Wir hoffen, bald Urlaub zu machen. (نأمل قضاء عطلة قريبًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Ich empfehle dir, dieses Buch zu lesen. (أنصحك بقراءة هذا الكتاب)." />
+
+        <!-- قاعدة 9: Ellipsen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Ellipsen (الجمل المختصرة)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم Ellipsen لحذف الكلمات غير الضرورية في الجملة، مما يجعلها مختصرة وواضحة." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Kaffee? (هل تريد قهوة؟)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Morgen um 8. (غدًا الساعة 8)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Zu spät. (متأخر جدًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Alles klar? (هل كل شيء واضح؟)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Kein Problem. (لا مشكلة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Bald zurück. (سأعود قريبًا)." />
+
+        <!-- قاعدة 10: Doppelkonjunktionen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Doppelkonjunktionen (أدوات الربط المزدوجة)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم أدوات الربط المزدوجة مثل 'sowohl ... als auch'، 'entweder ... oder' للربط بين جملتين أو فكرتين." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Er spricht sowohl Deutsch als auch Englisch. (يتحدث الألمانية والإنجليزية)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Entweder gehen wir ins Kino oder wir bleiben zu Hause. (إما أن نذهب إلى السينما أو نبقى في المنزل)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Sie ist nicht nur klug, sondern auch fleißig. (هي ليست ذكية فقط، بل مجتهدة أيضًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Weder er noch sie hat die Prüfung bestanden. (لا هو ولا هي اجتازا الامتحان)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Sowohl die Eltern als auch die Kinder waren begeistert. (كان الوالدان والأطفال متحمسين)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Nicht nur ich, sondern auch du bist eingeladen. (ليس أنا فقط، بل أنت أيضًا مدعو)." />
+        <!-- قاعدة 11: Inversion bei bestimmten Konjunktionen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. Inversion bei bestimmten Konjunktionen (عكس ترتيب الكلمات مع أدوات الربط)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: في بعض الحالات عند استخدام أدوات الربط مثل 'kaum', 'sobald', 'nicht nur'، يتغير ترتيب الكلمات ويصبح الفعل في بداية الجملة." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Kaum war ich zu Hause, klingelte das Telefon. (ما إن وصلت إلى المنزل، رن الهاتف)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Nicht nur ist sie intelligent, sie ist auch kreativ. (ليست فقط ذكية، بل أيضًا مبدعة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Sobald er den Raum betrat, begann die Diskussion. (بمجرد دخوله الغرفة، بدأت المناقشة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Nie zuvor habe ich so ein schönes Bild gesehen. (لم أرَ صورة جميلة كهذه من قبل)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Selten war ich so beeindruckt wie heute. (نادراً ما تأثرت كما اليوم)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Nicht nur war der Film spannend, sondern auch lehrreich. (لم يكن الفيلم مشوقاً فقط، بل أيضًا تعليمياً)." />
+
+        <!-- قاعدة 12: Partizipialkonstruktionen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. Partizipialkonstruktionen (استخدام صيغة التصريفات للمشاركة)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم هذه القاعدة لتقصير الجمل عن طريق استخدام صيغة التصريف الأولى أو الثانية (Partizip I أو Partizip II) كصفات أو أدوات للربط." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Die lächelnde Frau begrüßte uns herzlich. (المرأة المبتسمة رحبت بنا بحرارة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Die gestohlenen Dokumente wurden gefunden. (تم العثور على الوثائق المسروقة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Er zeigte mir ein von ihm gemaltes Bild. (أراني صورة رسمها بنفسه)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Die Kinder, laut lachend, spielten im Garten. (الأطفال، يضحكون بصوت عالٍ، كانوا يلعبون في الحديقة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Das gestern reparierte Auto fährt wieder einwandfrei. (السيارة التي تم إصلاحها أمس تعمل بشكل ممتاز مرة أخرى)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Der singende Vogel weckte uns am Morgen. (الطائر المغني أيقظنا في الصباح)." />
+
+
+        <!-- أضف القواعد 11 و 12 بنفس النمط -->
+
+
+        <!-- أضف القواعد من 7 إلى 12 بنفس التنسيق -->
+
+
+        <!-- Add rules 4–12 similarly with title color (#2E7D32) and examples text in black -->
+    </LinearLayout>
+</ScrollView>

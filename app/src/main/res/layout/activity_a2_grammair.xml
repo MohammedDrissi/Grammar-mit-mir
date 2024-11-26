@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4DA6F0"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <!-- قاعدة 1: الأفعال في الزمن الحاضر (Präsens) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.الأفعال في الزمن الحاضر (Präsens)"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/white"
+
+            android:text="الشرح: تُستخدم الأفعال في الزمن الحاضر للتعبير عن الأفعال التي تحدث بشكل عام في الوقت الحالي." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:text="1. Ich esse Frühstück. (أنا أتناول الإفطار)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:text="2. Du liest ein Buch. (أنت تقرأ كتابًا)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:text="3. Er arbeitet im Büro. (هو يعمل في المكتب)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:text="4. Wir gehen ins Kino. (نحن نذهب إلى السينما)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:text="5. Ihr spielt Fußball. (أنتم تلعبون كرة القدم)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:text="6. Sie trinken Wasser. (هم يشربون ماء)" />
+
+        <!-- قاعدة 2: الأفعال القوية (Unregelmäßige Verben) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. الأفعال القوية (Unregelmäßige Verben)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: الأفعال القوية تتغير في الجذور عند تصريفها في الزمن الحاضر أو الماضي." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:text="1. Ich fahre nach Berlin. (أنا أسافر إلى برلين) — من 'fahren'" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:text="2. Er sieht den Film. (هو يرى الفيلم) — من 'sehen'" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="3. Wir laufen im Park. (نحن نجري في الحديقة) — من 'laufen'" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="4. Sie kommt spät. (هي تأتي متأخرة) — من 'kommen'" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="5. Ich trinke Kaffee. (أنا أشرب القهوة) — من 'trinken'" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="6. Ihr esst Pizza. (أنتم تأكلون بيتزا) — من 'essen'" />
+
+        <!-- قاعدة 3: الضمائر الشخصية (Personalpronomen) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. الضمائر الشخصية (Personalpronomen)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: الضمائر الشخصية تُستخدم للإشارة إلى الأشخاص في الجمل." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="1. Ich bin müde. (أنا متعب)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="2. Du bist freundlich. (أنت لطيف)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="3. Er ist mein Freund. (هو صديقي)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="4. Wir haben Spaß. (نحن نستمتع)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="5. Ihr seid nett. (أنتم لطيفون)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="6. Sie arbeiten hart. (هم يعملون بجد)" />
+
+        <!-- قاعدة 4: الصفات (Adjektive) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. الصفات (Adjektive)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: الصفات تُستخدم لوصف الأسماء، وتأتي عادةً قبل الاسم." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="1. Der große Hund schläft. (الكلب الكبير نائم)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="2. Die alte Schule ist schön. (المدرسة القديمة جميلة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="3. Ich trage rote Schuhe. (أرتدي أحذية حمراء)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="4. Wir wohnen in einem schönen Haus. (نحن نعيش في منزل جميل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="5. Er hat einen neuen Job. (لديه وظيفة جديدة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="6. Die kleine Katze spielt. (القطة الصغيرة تلعب)" />
+
+        <!-- قاعدة 5: أزمنة الماضي (Präteritum und Perfekt) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. أزمنة الماضي (Präteritum und Perfekt)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: Präteritum يُستخدم في الكتابة الرسمية، بينما Perfekt يُستخدم في المحادثات اليومية." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="1. Ich aß ein Sandwich. (أكلت شطيرة) — Präteritum" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="2. Wir haben das Spiel gewonnen. (فزنا باللعبة) — Perfekt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="3. Sie gingen ins Kino. (ذهبوا إلى السينما) — Präteritum" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="4. Er hat sein Zimmer aufgeräumt. (لقد رتب غرفته) — Perfekt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="5. Ich trank viel Wasser. (شربت الكثير من الماء) — Präteritum" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="6. Du hast das Buch gelesen. (قرأت الكتاب) — Perfekt" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <!-- قاعدة 6: أزمنة المستقبل (Futur I) -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. أزمنة المستقبل (Futur I)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الشرح: يُستخدم زمن المستقبل للتعبير عن أحداث ستحدث في المستقبل." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الأمثلة:"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Ich werde nach Hause gehen. (سأذهب إلى المنزل)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Du wirst den Test bestehen. (أنت ستنجح في الاختبار)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Er wird bald ankommen. (هو سيصل قريبًا)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Wir werden das Projekt abschließen. (سننهي المشروع)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Ihr werdet in den Urlaub fahren. (أنتم ستذهبون في عطلة)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Sie werden den Film sehen. (هم سيرون الفيلم)" />
+
+            <!-- قاعدة 7: الجمل الاستفهامية (Fragen) -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. الجمل الاستفهامية (Fragen)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الشرح: تُستخدم الجمل الاستفهامية لطرح الأسئلة." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الأمثلة:"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Wie geht's dir? (كيف حالك؟)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Was machst du? (ماذا تفعل؟)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Wann beginnt der Film? (متى يبدأ الفيلم؟)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Warum bist du müde? (لماذا أنت متعب؟)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Woher kommst du? (من أين أنت؟)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Kannst du mir helfen? (هل يمكنك مساعدتي؟)" />
+
+            <!-- قاعدة 8: الحروف الجر (Präpositionen) -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. الحروف الجر (Präpositionen)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الشرح: تُستخدم الحروف الجر لربط الكلمات ببعضها البعض وتوضيح العلاقات بين الأشياء." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الأمثلة:"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Ich gehe ins Kino. (أذهب إلى السينما)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Das Buch liegt auf dem Tisch. (الكتاب موجود على الطاولة)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Wir fahren mit dem Bus. (نحن نركب الحافلة)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Der Hund läuft durch den Park. (الكلب يركض عبر الحديقة)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Sie sitzt neben mir. (هي جالسة بجانبي)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Das Auto steht vor dem Haus. (السيارة تقف أمام المنزل)" />
+
+            <!-- قاعدة 9: جمل الماضي المستمر (Progressive Vergangenheit) -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. جمل الماضي المستمر (Progressive Vergangenheit)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الشرح: هذا الشكل غير موجود في اللغة الألمانية، ولكن يمكن التعبير عنه باستخدام الشكل التام مع الأفعال." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الأمثلة:"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Ich habe das Essen gekocht. (لقد طبخت الطعام)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Wir sind gerade angekommen. (لقد وصلنا للتو)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Er hat immer das gleiche gesagt. (لقد قال نفس الشيء دائمًا)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Sie hat uns besucht. (هي زارتنا)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Du hast die Tür geöffnet. (لقد فتحت الباب)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Wir haben gestern gefeiert. (لقد احتفلنا أمس)" />
+
+            <!-- قاعدة 10: الجمل الشرطية (Konditionalsätze) -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. الجمل الشرطية (Konditionalsätze)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الشرح: تُستخدم الجمل الشرطية للتعبير عن شروط أو نتائج محتملة." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الأمثلة:"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Wenn du lernst, wirst du erfolgreich sein. (إذا درست، ستكون ناجحًا)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Wenn es regnet, bleiben wir zu Hause. (إذا أمطرت، سنبقى في المنزل)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Wenn ich Zeit habe, helfe ich dir. (إذا كان لدي وقت، سأساعدك)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Wenn du ihn siehst, sag ihm Hallo. (إذا رأيته، قل له مرحبا)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Wenn du das machst, wirst du krank werden. (إذا فعلت ذلك، ستصاب بالمرض)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Wenn sie kommt, gehen wir ins Kino. (إذا جاءت، سنذهب إلى السينما)" />
+
+            <!-- قاعدة 11: الأفعال المساعدة (Hilfsverben) -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11. الأفعال المساعدة (Hilfsverben)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الشرح: الأفعال المساعدة تُستخدم في بناء الأزمنة التامة والمبنية." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الأمثلة:"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Ich habe das Buch gelesen. (لقد قرأت الكتاب)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Wir sind ins Kino gegangen. (ذهبنا إلى السينما)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Sie hat das Fenster geschlossen. (هي أغلقت النافذة)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Ich bin zur Arbeit gegangen. (ذهبت إلى العمل)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Du hast das Buch gekauft. (لقد اشتريت الكتاب)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Sie ist gekommen. (لقد جاءت)" />
+
+            <!-- قاعدة 12: التفضيل (Komparativ und Superlativ) -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12. التفضيل (Komparativ und Superlativ)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الشرح: تُستخدم للمقارنة بين شيئين أو أكثر باستخدام درجات التفضيل." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الأمثلة:"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Mein Haus ist größer als deins. (بيتي أكبر من بيتك)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Der Film war spannender als der Buch. (كان الفيلم أكثر إثارة من الكتاب)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Sie ist die schnellste Läuferin. (هي أسرع عداءة)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Er ist der klügste Schüler in der Klasse. (هو أذكى طالب في الصف)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Das Wetter ist besser als gestern. (الطقس أفضل من أمس)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Mein Hund ist größer als dein Hund. (كلبي أكبر من كلبك)" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

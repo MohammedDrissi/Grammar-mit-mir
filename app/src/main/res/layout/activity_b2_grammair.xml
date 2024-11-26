@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57A5EB" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- قاعدة 1: جمل الشرطية الثالثة -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. جمل الشرطية الثالثة (Bedingungssätze III)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم الجمل الشرطية الثالثة للتعبير عن شيء لم يحدث في الماضي، مما يعني أنه من المستحيل أن يحدث الآن." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Wenn ich das gewusst hätte, wäre ich nicht gekommen. (لو كنت قد علمت بذلك، لما جئت)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Wenn er die Antwort gekannt hätte, hätte er gewonnen. (لو كان يعرف الجواب، لكان قد فاز)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wenn sie nicht so spät angekommen wäre, hätten wir das Treffen rechtzeitig begonnen. (لو لم تصل متأخرة، لبدأنا الاجتماع في الوقت المحدد)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Hätten wir das Geld gespart, hätten wir jetzt ein Haus. (لو كنا قد وفرنا المال، لكان لدينا الآن منزل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Wenn du mir geholfen hättest, wäre ich nicht so frustriert gewesen. (لو كنت قد ساعدتني، لما كنت محبطًا)" />
+
+        <!-- قاعدة 2: الماضي التام المستمر -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. الماضي التام المستمر (Plusquamperfekt Verlaufsform)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يستخدم الماضي التام المستمر للإشارة إلى حدث كان جاريًا في الماضي قبل حدث آخر." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich hatte schon gegessen, als du kamst. (كنت قد أكلت بالفعل عندما جئت)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie war schon am Lernen, als ich anrief. (كانت تدرس بالفعل عندما اتصلت)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wir hatten uns schon lange unterhalten, als der Film begann. (كنا نتحدث منذ فترة طويلة عندما بدأ الفيلم)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Er war den ganzen Tag auf der Arbeit, bevor er ins Fitnessstudio ging. (كان في العمل طوال اليوم قبل أن يذهب إلى صالة الألعاب الرياضية)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich hatte gerade den Brief geschrieben, als der Postbote kam. (كنت قد كتبت الرسالة للتو عندما جاء ساعي البريد)" />
+
+        <!-- قاعدة 3: التفضيل باستخدام 'je ... desto' -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. التفضيل باستخدام 'je ... desto' (Vergleich mit 'je ... desto')"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يتم استخدام هذا البناء للتعبير عن التفضيل أو الارتباط بين شيئين يزيد أو يقل تدريجيًا." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Je mehr ich lerne, desto besser verstehe ich Deutsch. (كلما تعلمت أكثر، فهمت الألمانية بشكل أفضل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Je länger wir warten, desto schlechter wird das Wetter. (كلما انتظرنا أكثر، كلما أصبح الطقس أسوأ)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Je älter er wird, desto weiser wird er. (كلما كبر في السن، أصبح أكثر حكمة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Je mehr Geld du hast, desto mehr kannst du kaufen. (كلما كان لديك المزيد من المال، كلما استطعت شراء المزيد)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Je häufiger du übst, desto schneller wirst du besser. (كلما مارست أكثر، كلما أصبحت أفضل بشكل أسرع)" />
+
+        <!-- قاعدة 4: أفعال متعددة الحروف -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. الأفعال متعددة الحروف (Trennbare Verben)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: الأفعال متعددة الحروف تتكون من فعل رئيسي وحرف إضافة (عادة ما يكون حرفًا ظرفيًا). يتم فصل الحرف في الجملة." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich stehe jeden Morgen früh auf. (أستيقظ كل صباح مبكرًا)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Wir müssen das Problem schnell lösen. (يجب علينا حل المشكلة بسرعة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Er kommt nach der Arbeit nach Hause. (يعود إلى المنزل بعد العمل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Du musst den Fernseher ausschalten. (عليك إيقاف تشغيل التلفاز)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Sie geht heute Abend mit ihren Freunden aus. (تذهب هذا المساء مع أصدقائها)" />
+
+        <!-- قاعدة 5: عبارات التفسير -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. عبارات التفسير (Erläuterungen)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تستخدم عبارات التفسير لتوضيح فكرة أو قضية معينة بشكل مفصل." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Das bedeutet, dass er nicht kommen wird. (هذا يعني أنه لن يأتي)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. In anderen Worten, wir müssen mehr üben. (بعبارة أخرى، يجب علينا ممارسة المزيد)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Das heißt, du hast keine Entschuldigung. (هذا يعني أنه ليس لديك عذر)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Es ist so, dass wir schneller arbeiten müssen. (الأمر هو أننا يجب أن نعمل بسرعة أكبر)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Das bedeutet, wir müssen sofort handeln. (هذا يعني أنه يجب علينا التصرف على الفور)" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. أفعال التوجه والتأكيد (Verben der Bewegung und Bestätigung)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تستخدم هذه الأفعال للإشارة إلى الحركة نحو شيء ما أو تأكيده. عادة ما تُستخدم مع حروف الجر." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich gehe in den Park. (أذهب إلى الحديقة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Er fährt nach Hause. (هو يقود إلى المنزل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wir fliegen nach Berlin. (نحن نطير إلى برلين)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Sie geht zur Schule. (هي تذهب إلى المدرسة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich komme aus dem Büro. (أنا قادم من المكتب)" />
+
+        <!-- قاعدة 7: الأفعال المنفصلة وغير المنفصلة -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. الأفعال المنفصلة وغير المنفصلة (Trennbare und Untrennbare Verben)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تتكون الأفعال المنفصلة من جزءين، حيث يتم فصل الجزء الأول في الجملة. أما الأفعال غير المنفصلة فلا يتم فصل الأجزاء." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich stehe früh auf. (أنا أستيقظ مبكرًا)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie ruft mich an. (هي تتصل بي)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Er holt die Kinder ab. (هو يأخذ الأطفال)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Wir fangen mit der Arbeit an. (نبدأ العمل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich besuche meine Freunde. (أنا أزور أصدقائي)" />
+
+        <!-- قاعدة 8: المبني للمجهول -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. المبني للمجهول (Passiv)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يستخدم المبني للمجهول عندما يكون الفاعل غير معروف أو غير مهم في الجملة." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Das Auto wird repariert. (يتم إصلاح السيارة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Der Brief wird geschrieben. (الرسالة تُكتب)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Das Fenster ist geputzt worden. (تم تنظيف النافذة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Die Fragen werden beantwortet. (يتم الإجابة على الأسئلة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Der Kuchen wird gebacken. (يتم خبز الكعكة)" />
+
+        <!-- قاعدة 9: التمني باستخدام "wünschte, dass" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. التمني باستخدام 'wünschte, dass' (Wunsch mit 'wünschte, dass')"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يتم استخدام هذه العبارة للتعبير عن الرغبات المتعلقة بالماضي." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich wünschte, dass ich mehr Zeit hätte. (كنت أتمنى لو كان لدي وقت أكثر)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Er wünschte, dass er das Konzert gesehen hätte. (كان يتمنى لو كان قد شاهد الحفل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wir wünschten, dass wir früher angekommen wären. (كنا نتمنى لو كنا قد وصلنا في وقت أبكر)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Sie wünschte, dass sie das Gespräch gehört hätte. (كانت تتمنى لو كانت قد سمعت الحديث)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich wünschte, dass ich mehr gelernt hätte. (كنت أتمنى لو كنت قد تعلمت أكثر)" />
+
+        <!-- قاعدة 10: التعبير عن الفرضيات باستخدام "als ob" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. التعبير عن الفرضيات باستخدام 'als ob' (Hypothetische Ausdrücke mit 'als ob')"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يُستخدم هذا البناء للتعبير عن فرضية أو شيء غير حقيقي." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Er tut so, als ob er krank wäre. (هو يتظاهر وكأنه مريض)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie spricht, als ob sie alles wüsste. (هي تتحدث وكأنها تعرف كل شيء)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Ich fühle mich, als ob ich schlafen könnte. (أشعر وكأنني أستطيع النوم)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Sie sieht aus, als ob sie weinen würde. (هي تبدو وكأنها ستبكي)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Er redet, als ob er der Chef wäre. (هو يتحدث وكأنه المدير)" />
+
+        <!-- قاعدة 11: تفضيلات باستخدام "möchte" و "würde" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. تفضيلات باستخدام 'möchte' و 'würde' (Wünsche mit 'möchte' und 'würde')"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تعبر هذه العبارات عن الرغبات، وتستخدم مع الأفعال." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich möchte ein neues Auto kaufen. (أريد شراء سيارة جديدة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie würde gerne nach Paris reisen. (هي ترغب في السفر إلى باريس)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wir möchten in den Urlaub fahren. (نريد الذهاب في عطلة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Er würde lieber zu Hause bleiben. (هو يفضل البقاء في المنزل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich möchte besser Deutsch sprechen. (أريد التحدث بالألمانية بشكل أفضل)" />
+
+        <!-- قاعدة 12: الأفعال الشرطية (Konjunktiv II) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. الأفعال الشرطية (Konjunktiv II)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم الأفعال الشرطية للإشارة إلى الأفعال التي لا تحدث في الواقع أو التي تعتمد على شرط." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Wenn ich reich wäre, würde ich reisen. (إذا كنت غنيًا، لسافرت)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie würde das Buch kaufen, wenn sie mehr Geld hätte. (هي كانت ستشتري الكتاب لو كان لديها المزيد من المال)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wir hätten den Zug genommen, wenn wir schneller gewesen wären. (كنا سنأخذ القطار لو كنا أسرع)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Wenn er mehr Zeit hätte, würde er uns besuchen. (إذا كان لديه المزيد من الوقت، لكان سيزورنا)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich würde den Film sehen, wenn ich nicht so müde wäre. (كنت سأشاهد الفيلم لو لم أكن متعبًا)" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. أفعال التوجه والتأكيد (Verben der Bewegung und Bestätigung)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تستخدم هذه الأفعال للإشارة إلى الحركة نحو شيء ما أو تأكيده. عادة ما تُستخدم مع حروف الجر." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich gehe in den Park. (أذهب إلى الحديقة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Er fährt nach Hause. (هو يقود إلى المنزل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wir fliegen nach Berlin. (نحن نطير إلى برلين)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Sie geht zur Schule. (هي تذهب إلى المدرسة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich komme aus dem Büro. (أنا قادم من المكتب)" />
+
+        <!-- قاعدة 7: الأفعال المنفصلة وغير المنفصلة -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. الأفعال المنفصلة وغير المنفصلة (Trennbare und Untrennbare Verben)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تتكون الأفعال المنفصلة من جزءين، حيث يتم فصل الجزء الأول في الجملة. أما الأفعال غير المنفصلة فلا يتم فصل الأجزاء." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich stehe früh auf. (أنا أستيقظ مبكرًا)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie ruft mich an. (هي تتصل بي)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Er holt die Kinder ab. (هو يأخذ الأطفال)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Wir fangen mit der Arbeit an. (نبدأ العمل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich besuche meine Freunde. (أنا أزور أصدقائي)" />
+
+        <!-- قاعدة 8: المبني للمجهول -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. المبني للمجهول (Passiv)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يستخدم المبني للمجهول عندما يكون الفاعل غير معروف أو غير مهم في الجملة." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Das Auto wird repariert. (يتم إصلاح السيارة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Der Brief wird geschrieben. (الرسالة تُكتب)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Das Fenster ist geputzt worden. (تم تنظيف النافذة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Die Fragen werden beantwortet. (يتم الإجابة على الأسئلة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Der Kuchen wird gebacken. (يتم خبز الكعكة)" />
+
+        <!-- قاعدة 9: التمني باستخدام "wünschte, dass" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. التمني باستخدام 'wünschte, dass' (Wunsch mit 'wünschte, dass')"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يتم استخدام هذه العبارة للتعبير عن الرغبات المتعلقة بالماضي." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich wünschte, dass ich mehr Zeit hätte. (كنت أتمنى لو كان لدي وقت أكثر)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Er wünschte, dass er das Konzert gesehen hätte. (كان يتمنى لو كان قد شاهد الحفل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wir wünschten, dass wir früher angekommen wären. (كنا نتمنى لو كنا قد وصلنا في وقت أبكر)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Sie wünschte, dass sie das Gespräch gehört hätte. (كانت تتمنى لو كانت قد سمعت الحديث)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich wünschte, dass ich mehr gelernt hätte. (كنت أتمنى لو كنت قد تعلمت أكثر)" />
+
+        <!-- قاعدة 10: التعبير عن الفرضيات باستخدام "als ob" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. التعبير عن الفرضيات باستخدام 'als ob' (Hypothetische Ausdrücke mit 'als ob')"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يُستخدم هذا البناء للتعبير عن فرضية أو شيء غير حقيقي." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Er tut so, als ob er krank wäre. (هو يتظاهر وكأنه مريض)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie spricht, als ob sie alles wüsste. (هي تتحدث وكأنها تعرف كل شيء)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Ich fühle mich, als ob ich schlafen könnte. (أشعر وكأنني أستطيع النوم)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Sie sieht aus, als ob sie weinen würde. (هي تبدو وكأنها ستبكي)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Er redet, als ob er der Chef wäre. (هو يتحدث وكأنه المدير)" />
+
+        <!-- قاعدة 11: تفضيلات باستخدام "möchte" و "würde" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. تفضيلات باستخدام 'möchte' و 'würde' (Wünsche mit 'möchte' und 'würde')"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تعبر هذه العبارات عن الرغبات، وتستخدم مع الأفعال." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich möchte ein neues Auto kaufen. (أريد شراء سيارة جديدة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie würde gerne nach Paris reisen. (هي ترغب في السفر إلى باريس)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wir möchten in den Urlaub fahren. (نريد الذهاب في عطلة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Er würde lieber zu Hause bleiben. (هو يفضل البقاء في المنزل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich möchte besser Deutsch sprechen. (أريد التحدث بالألمانية بشكل أفضل)" />
+
+        <!-- قاعدة 12: الأفعال الشرطية (Konjunktiv II) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. الأفعال الشرطية (Konjunktiv II)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم الأفعال الشرطية للإشارة إلى الأفعال التي لا تحدث في الواقع أو التي تعتمد على شرط." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Wenn ich reich wäre, würde ich reisen. (إذا كنت غنيًا، لسافرت)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie würde das Buch kaufen, wenn sie mehr Geld hätte. (هي كانت ستشتري الكتاب لو كان لديها المزيد من المال)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wir hätten den Zug genommen, wenn wir schneller gewesen wären. (كنا سنأخذ القطار لو كنا أسرع)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Wenn er mehr Zeit hätte, würde er uns besuchen. (إذا كان لديه المزيد من الوقت، لكان سيزورنا)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ich würde den Film sehen, wenn ich nicht so müde wäre. (كنت سأشاهد الفيلم لو لم أكن متعبًا)" />
+
+
+
+    </LinearLayout>
+</ScrollView>

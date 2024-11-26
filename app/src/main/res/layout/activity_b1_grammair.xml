@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57A5EB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- قاعدة 1: استخدام الأفعال المنفصلة -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="1. استخدام الأفعال المنفصلة (Trennbare Verben)"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يتم فصل الأفعال المنفصلة في الجملة."
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="الأمثلة:"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich stehe jeden Morgen um 7 Uhr auf. (أستيقظ كل صباح في الساعة 7)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie fährt jeden Tag mit dem Bus zur Arbeit. (هي تأخذ الحافلة إلى العمل كل يوم)" />
+
+        <!-- قاعدة 2: الماضي البسيط للأفعال الشاذة -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="2. الماضي البسيط للأفعال الشاذة (Unregelmäßige Verben im Präteritum)"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يتم استخدام الماضي البسيط مع الأفعال الشاذة." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="الأمثلة:"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich aß gestern Pizza. (أكلت البيتزا أمس)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Er ging gestern ins Kino. (ذهب إلى السينما أمس)" />
+
+        <!-- قاعدة 3: الجمل الشرطية -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="3. الجمل الشرطية (Bedingungssätze)"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تستخدم الجمل الشرطية لإظهار علاقة بين شرط ونتيجته." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="الأمثلة:"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Wenn es regnet, bleiben wir zu Hause. (إذا أمطرت، سنبقى في المنزل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Wenn du Zeit hast, besuch mich. (إذا كان لديك وقت، زرني)" />
+
+        <!-- قاعدة 4: المستقبل البسيط -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="4. المستقبل البسيط (Futur I)"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يستخدم المستقبل البسيط للتحدث عن الأحداث المستقبلية." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="الأمثلة:"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich werde morgen arbeiten. (سأعمل غدًا)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Wir werden im Sommer reisen. (سنسافر في الصيف)" />
+
+        <!-- قاعدة 5: التفضيل والمقارنة -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="5. التفضيل والمقارنة (Komparativ und Superlativ)"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تستخدم المقارنة بين الأشياء في درجة التفضيل." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="الأمثلة:"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Mein Auto ist schneller als deins. (سيارتي أسرع من سيارتك)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Das ist das größte Gebäude in der Stadt. (هذا هو أكبر مبنى في المدينة)" />
+
+        <!-- قاعدة 6: الجمل المعقدة -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="6. الجمل المعقدة (Komplexe Sätze)"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تستخدم الجمل المعقدة للتعبير عن فكرة أكثر تعقيدًا باستخدام رابط أو ضمير." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="الأمثلة:"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich weiß, dass du morgen kommen wirst. (أعرف أنك ستأتي غدًا)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Wir haben das Auto repariert, weil es kaputt war. (أصلحنا السيارة لأنها كانت معطلة)" />
+        <!-- قاعدة 7: استخدام جملة الشرطية الثانية -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. جمل الشرطية الثانية (Bedingungssätze II)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يستخدم هذا النوع من الجمل للتعبير عن افتراضات غير حقيقية في الحاضر أو المستقبل." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Wenn ich mehr Geld hätte, würde ich ein Auto kaufen. (إذا كان لدي المزيد من المال، لشراءت سيارة)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Wenn er besser Deutsch sprechen könnte, würde er den Job bekommen. (إذا كان يستطيع التحدث بالألمانية بشكل أفضل، لكان حصل على الوظيفة)" />
+
+        <!-- قاعدة 8: الماضي التام (Plusquamperfekt) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. الماضي التام (Plusquamperfekt)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يستخدم الماضي التام للإشارة إلى حدث وقع قبل حدث آخر في الماضي." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich hatte das Buch schon gelesen, bevor er kam. (كنت قد قرأت الكتاب بالفعل قبل أن يأتي)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie hatte das Zimmer aufgeräumt, bevor die Gäste kamen. (كانت قد رتبت الغرفة قبل أن يأتي الضيوف)" />
+
+        <!-- قاعدة 9: التفضيل مع 'mehr' و 'am meisten' -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. التفضيل مع 'mehr' و 'am meisten' (Vergleich mit 'mehr' und 'am meisten')"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يُستخدم 'mehr' للتعبير عن المقارنة بين شيئين أو أكثر، بينما يُستخدم 'am meisten' للتعبير عن الأعلى أو الأكثر." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Mein Bruder ist mehr kreativ als ich. (أخي أكثر إبداعًا مني)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie ist die netteste Person, die ich kenne. (هي أكثر شخص لطيف عرفته)" />
+
+        <!-- قاعدة 10: استعمال 'seit' و 'für' -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. استعمال 'seit' و 'für' (Verwendung von 'seit' und 'für')"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يتم استخدام 'seit' مع الوقت الذي بدأ فيه الحدث، بينما يتم استخدام 'für' للإشارة إلى مدة الوقت." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich lerne seit zwei Jahren Deutsch. (أتعلم الألمانية منذ عامين)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Er arbeitet seit einem Monat in dieser Firma. (يعمل في هذه الشركة منذ شهر)" />
+
+        <!-- قاعدة 11: استخدام أدوات التوكيد -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. استخدام أدوات التوكيد (Betonungswörter)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم أدوات التوكيد لتأكيد الكلمات أو الجمل." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich habe das schon lange gewusst. (لقد كنت أعرف ذلك منذ وقت طويل)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sie hat das wirklich gut gemacht. (لقد قامت بذلك بشكل جيد حقًا)" />
+
+        <!-- قاعدة 12: استخدام 'weil' و 'denn' -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. استخدام 'weil' و 'denn' (Verwendung von 'weil' und 'denn')"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم 'weil' و 'denn' للتعبير عن السبب في الجمل." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich bleibe zu Hause, weil es regnet. (سأبقى في المنزل لأنها تمطر)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Ich habe keine Zeit, denn ich muss arbeiten. (ليس لدي وقت، لأنني يجب أن أعمل)" />
+
+    </LinearLayout>
+</ScrollView>

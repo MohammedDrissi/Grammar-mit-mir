@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4BD95B"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- قاعدة 1: الجمل المعقدة باستخدام "je ... desto/umso" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. الجمل المعقدة باستخدام 'je ... desto/umso'"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم هذه القاعدة للتعبير عن علاقة طردية بين شيئين." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Je mehr du lernst, desto besser wirst du. (كلما درست أكثر، أصبحت أفضل)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Je früher wir anfangen, desto schneller sind wir fertig. (كلما بدأنا أبكر، انتهينا أسرع)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Je weniger du schläfst, desto müder wirst du. (كلما نمت أقل، أصبحت أكثر تعبًا)." />
+
+        <!-- قاعدة 2: صيغ المبني للمجهول المتقدم -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. صيغ المبني للمجهول المتقدم"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يتم استخدام صيغ معقدة للتعبير عن أفعال تحدث بشكل غير مباشر." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Das Problem hätte gelöst werden können. (كان من الممكن حل المشكلة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Das Projekt wird gerade abgeschlossen. (المشروع يُنْهَى حاليًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Das Auto wurde repariert, bevor es verkauft wurde. (السيارة تم إصلاحها قبل أن تُباع)." />
+
+        <!-- قاعدة 3: استخدام العبارات الشرطية غير الواقعية -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. استخدام العبارات الشرطية غير الواقعية"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم للتحدث عن مواقف غير واقعية أو مستحيلة." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Wenn ich Millionär wäre, würde ich nicht mehr arbeiten. (لو كنت مليونيرًا، لما عملت)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Hättest du mir früher Bescheid gesagt, wäre ich gekommen. (لو أخبرتني سابقًا، لكنت أتيت)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Wäre ich du, würde ich das nicht tun. (لو كنت مكانك، لما فعلت ذلك)." />
+
+        <!-- قاعدة 4: الجمل المدمجة باستخدام "Partizip I und II" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. الجمل المدمجة باستخدام 'Partizip I und II'"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم لدمج الجمل وتقصير النصوص." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Der lachende Mann ist mein Lehrer. (الرجل الذي يضحك هو معلمي)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Das verlorene Handy wurde gefunden. (الهاتف المفقود تم العثور عليه)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Die Kinder, spielend im Park, sind glücklich. (الأطفال الذين يلعبون في الحديقة سعداء)." />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Konjunktiv II للتعبير عن الرغبة والافتراض"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: يُستخدم Konjunktiv II للتعبير عن الأمنيات أو الافتراضات غير الواقعية." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Ich wünschte, ich hätte mehr Zeit. (أتمنى لو كان لدي المزيد من الوقت)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Wenn ich reich wäre, würde ich die Welt bereisen. (لو كنت غنيًا، لسافرت حول العالم)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Er sagte, er würde später kommen. (قال إنه سيأتي لاحقًا)." />
+
+        <!-- قاعدة 6: الجمل الظرفية باستخدام "sofern, solange" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. الجمل الظرفية باستخدام 'sofern, solange'"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم هذه الروابط لتحديد شرط أو فترة زمنية." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Sofern es nicht regnet, machen wir ein Picknick. (طالما لم تمطر، سنقيم نزهة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Solange du übst, wirst du besser. (طالما تتدرب، ستتحسن)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Sofern die Lieferung pünktlich kommt, werden wir fertig. (إذا وصل التسليم في الوقت المحدد، سننتهي)." />
+
+        <!-- قاعدة 7: استخدام Infinitivkonstruktionen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. استخدام Infinitivkonstruktionen"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم هذه التراكيب مع 'zu' لجعل الجمل أكثر اختصارًا." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Er hat die Absicht, eine neue Sprache zu lernen. (لديه نية لتعلم لغة جديدة)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Es ist wichtig, die Regeln zu verstehen. (من المهم فهم القواعد)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Ich habe beschlossen, nach Deutschland zu reisen. (قررت السفر إلى ألمانيا)." />
+
+        <!-- قاعدة 8: الجمل المدمجة باستخدام "obwohl, trotzdem" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. الجمل المدمجة باستخدام 'obwohl, trotzdem'"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشرح: تُستخدم هذه الروابط للتعبير عن التناقض." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الأمثلة:"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Obwohl es regnet, gehen wir spazieren. (على الرغم من أنها تمطر، نذهب للمشي)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Es war kalt, trotzdem hat er keine Jacke getragen. (كان الجو باردًا، ومع ذلك لم يرتدِ معطفًا)." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Obwohl er krank ist, arbeitet er weiter. (على الرغم من أنه مريض، يواصل العمل)." />
+
+        <!-- المزيد من القواعد حسب الحاجة -->
+    </LinearLayout>
+</ScrollView>
